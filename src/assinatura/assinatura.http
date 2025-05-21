@@ -1,0 +1,27 @@
+### list assinatura
+GET http://localhost:3000/assinatura
+
+### get assinatura
+GET http://localhost:3000/assinatura/prod_08uM36dR9_P88XTy0nP97
+
+### create assinatura
+POST http://localhost:3000/assinatura
+Content-Type: application/json
+
+{
+    "dataInicio": "2025-05-12",
+    "dataFim": "2025-06-12",
+    "valor": 15,
+    "clienteId": "cli_4DMIPusCLiGd-XE3Xkj8q"
+}
+
+### update assinatura
+PATCH http://localhost:3000/assinatura/1
+Content-Type: application/json
+
+{
+    "preco_unitario": 5.75
+}
+
+### delete assinatura
+DELETE http://localhost:3000/assinatura/prod_08uM36dR9_P88XTy0nP97

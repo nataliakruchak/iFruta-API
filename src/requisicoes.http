@@ -1,0 +1,298 @@
+### list pedidos
+GET http://localhost:3000/pedidos
+
+### get pedidos
+GET http://localhost:3000/pedidos/1
+
+### create pedidos
+POST http://localhost:3000/pedidos
+Content-Type: application/json
+
+{
+    "valorTotal": 200.4,
+    "status": "Disponivel",
+    "dataPedido": "2025-01-01"
+}
+
+### update pedidos
+PATCH http://localhost:3000/pedidos/pedid_MF--6T5V6MgTPJD_f0Fqa
+Content-Type: application/json
+
+{
+    "valorTotal": 150.65
+}
+
+### delete pedidos
+DELETE http://localhost:3000/pedidos/pedid_MF--6T5V6MgTPJD_f0Fqa
+
+
+### ================================================================= ###
+
+### list cartao
+GET http://localhost:3000/cartao
+
+### get cartao
+GET http://localhost:3000/cartao/prod_08uM36dR9_P88XTy0nP97
+
+### create cartao
+POST http://localhost:3000/cartao
+Content-Type: application/json
+
+{
+    "numero": "320039348484",
+    "nomeTitular": "Amanda Teixeira",
+    "validade": "05/26",
+    "cvv": "123"
+}
+
+### update cartao
+PATCH http://localhost:3000/cartao/cart_SSyaL0uHSWgJsQgn1tjS3
+Content-Type: application/json
+
+{
+    "numero": "3728137102379"
+}
+
+### delete cartao
+DELETE http://localhost:3000/cartao/cart_SSyaL0uHSWgJsQgn1tjS3
+
+### ================================================================= ###
+
+### list cliente
+GET http://localhost:3000/cliente
+
+### get cliente
+GET http://localhost:3000/cliente/1
+
+### create cliente
+POST http://localhost:3000/cliente
+Content-Type: application/json
+
+{
+    "nome": "Matheus",
+    "email": "matheus@gmail.com",
+    "telefone": "(61) 9981818"
+}
+
+### update cliente
+PATCH http://localhost:3000/cliente/cli_4DMIPusCLiGd-XE3Xkj8q
+Content-Type: application/json
+
+{
+    "email": "matheus.s@gmail.com"
+}
+
+### delete cliente
+DELETE http://localhost:3000/cliente/cli_4DMIPusCLiGd-XE3Xkj8q
+
+### ================================================================= ###
+
+### list cupons
+GET http://localhost:3000/cupons
+
+### get cupons
+GET http://localhost:3000/cupons/prod_08uM36dR9_P88XTy0nP97
+
+### create cupons
+POST http://localhost:3000/cupons
+Content-Type: application/json
+
+{
+    "codigo": "332223",
+    "valorDesconto": 20,
+    "dataValidade": "2025-10-10"
+}
+
+### update cupons
+PATCH http://localhost:3000/cupons/cup_GKp9CItfdqGolse2ka3Xs
+Content-Type: application/json
+
+{
+    "codigo": "8472398",
+    "valorDesconto": 30
+}
+
+### delete cupons
+DELETE http://localhost:3000/cupons/cup_GKp9CItfdqGolse2ka3Xs
+
+### ================================================================= ###
+
+### list endereco
+GET http://localhost:3000/endereco
+
+### get endereco
+GET http://localhost:3000/endereco/prod_08uM36dR9_P88XTy0nP97
+
+### create endereco
+POST http://localhost:3000/endereco
+Content-Type: application/json
+
+{
+    "cep": "70000303",
+    "rua": "Rua avalanche",
+    "numero": 42,
+    "bairro": "Barra da Tijuca",
+    "cidade": "Rio de Janeiro", 
+    "estado": "RJ"
+}
+
+### update endereco
+PATCH http://localhost:3000/endereco/1
+Content-Type: application/json
+
+{
+    "cep": "72000000"
+}
+
+### delete endereco
+DELETE http://localhost:3000/endereco/prod_08uM36dR9_P88XTy0nP97
+
+### ================================================================= ###
+
+### list entregador
+GET http://localhost:3000/entregador
+
+### get entregador
+GET http://localhost:3000/entregador/
+
+### create entregador
+POST http://localhost:3000/entregador
+Content-Type: application/json
+
+{
+    "nome": "José Almeida",
+    "telefone": "(61) 9999999",
+    "email": "jose.almeida@gmail.com",
+    "cnh": "322398849",
+    "veiculo": "Moto"
+}
+
+### update entregador
+PATCH http://localhost:3000/entregador/1
+Content-Type: application/json
+
+{
+    "preco_unitario": 5.75
+}
+
+### delete entregador
+DELETE http://localhost:3000/entregador/prod_08uM36dR9_P88XTy0nP97
+
+### ================================================================= ###
+
+### list loja
+GET http://localhost:3000/loja
+
+### get loja
+GET http://localhost:3000/loja/1
+
+### create loja
+POST http://localhost:3000/loja
+Content-Type: application/json
+
+{
+    "nome": "HortFrut da Nat",
+    "cnpj": "12.323.3234",
+    "email": "nathortfrut@gmail.com",
+    "telefone": "(61)9999999",
+    "endereco": "Rua Arniqueiras, 16"
+
+}
+
+### update loja
+PATCH http://localhost:3000/loja/1
+Content-Type: application/json
+
+{
+    "email": "hortfrutdanat@gmail.com"
+}
+
+### delete loja
+DELETE http://localhost:3000/loja/ped__8EgWfptt3F9dqNYpFN5b
+
+### ================================================================= ###
+
+### list pedidos
+GET http://localhost:3000/pedidos
+
+### get pedidos
+GET http://localhost:3000/pedidos/1
+
+### create pedidos
+POST http://localhost:3000/pedidos
+Content-Type: application/json
+
+{
+    "valorTotal": 200.4,
+    "status": "Disponivel",
+    "dataPedido": "2025-01-01"
+}
+
+### update pedidos
+PATCH http://localhost:3000/pedidos/pedid_MF--6T5V6MgTPJD_f0Fqa
+Content-Type: application/json
+
+{
+    "valorTotal": 150.65
+}
+
+### delete pedidos
+DELETE http://localhost:3000/pedidos/pedid_MF--6T5V6MgTPJD_f0Fqa
+
+### ================================================================= ###
+
+### list produtos
+GET http://localhost:3000/produtos
+
+### get produtos
+GET http://localhost:3000/produtos/prod_08uM36dR9_P88XTy0nP97
+
+### create produtos
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Batata",
+    "preco_unitario": 5.25,
+    "estoque": 200
+}
+
+### update produtos
+PATCH http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+    "preco_unitario": 5.75
+}
+
+### delete produtos
+DELETE http://localhost:3000/produtos/prod_08uM36dR9_P88XTy0nP97
+
+### ================================================================= ###
+
+### list produtospedido
+GET http://localhost:3000/produtospedidos
+
+### get produtospedido
+GET http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE
+
+### create produtospedido
+POST http://localhost:3000/produtospedidos
+Content-Type: application/json
+
+{
+    "pedidoId": "pedid_MF--6T5V6MgTPJD_f0Fqa",
+    "produtoId": "pedid_OzZ25v-9tVneTMiqa7CKf",
+    "status": "Criado"
+}
+
+### update produtospedido
+PATCH http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE
+Content-Type: application/json
+
+{
+    "status": "Entregue"
+}
+
+### delete produtospedido
+DELETE http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE

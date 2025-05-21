@@ -1,0 +1,26 @@
+### list produtos
+GET http://localhost:3000/produtos
+
+### get produtos
+GET http://localhost:3000/produtos/prod_08uM36dR9_P88XTy0nP97
+
+### create produtos
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Batata",
+    "preco_unitario": 5.25,
+    "estoque": 200
+}
+
+### update produtos
+PATCH http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+    "preco_unitario": 5.75
+}
+
+### delete produtos
+DELETE http://localhost:3000/produtos/prod_08uM36dR9_P88XTy0nP97

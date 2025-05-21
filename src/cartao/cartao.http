@@ -1,0 +1,27 @@
+### list cartao
+GET http://localhost:3000/cartao
+
+### get cartao
+GET http://localhost:3000/cartao/prod_08uM36dR9_P88XTy0nP97
+
+### create cartao
+POST http://localhost:3000/cartao
+Content-Type: application/json
+
+{
+    "numero": "320039348484",
+    "nomeTitular": "Amanda Teixeira",
+    "validade": "05/26",
+    "cvv": "123"
+}
+
+### update cartao
+PATCH http://localhost:3000/cartao/cart_SSyaL0uHSWgJsQgn1tjS3
+Content-Type: application/json
+
+{
+    "numero": "3728137102379"
+}
+
+### delete cartao
+DELETE http://localhost:3000/cartao/cart_SSyaL0uHSWgJsQgn1tjS3

@@ -1,0 +1,29 @@
+### list endereco
+GET http://localhost:3000/endereco
+
+### get endereco
+GET http://localhost:3000/endereco/prod_08uM36dR9_P88XTy0nP97
+
+### create endereco
+POST http://localhost:3000/endereco
+Content-Type: application/json
+
+{
+    "cep": "70000303",
+    "rua": "Rua avalanche",
+    "numero": 42,
+    "bairro": "Barra da Tijuca",
+    "cidade": "Rio de Janeiro", 
+    "estado": "RJ"
+}
+
+### update endereco
+PATCH http://localhost:3000/endereco/1
+Content-Type: application/json
+
+{
+    "cep": "72000000"
+}
+
+### delete endereco
+DELETE http://localhost:3000/endereco/prod_08uM36dR9_P88XTy0nP97

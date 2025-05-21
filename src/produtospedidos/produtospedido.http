@@ -1,0 +1,26 @@
+### list produtospedido
+GET http://localhost:3000/produtospedidos
+
+### get produtospedido
+GET http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE
+
+### create produtospedido
+POST http://localhost:3000/produtospedidos
+Content-Type: application/json
+
+{
+    "pedidoId": "pedid_MF--6T5V6MgTPJD_f0Fqa",
+    "produtoId": "pedid_OzZ25v-9tVneTMiqa7CKf",
+    "status": "Criado"
+}
+
+### update produtospedido
+PATCH http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE
+Content-Type: application/json
+
+{
+    "status": "Entregue"
+}
+
+### delete produtospedido
+DELETE http://localhost:3000/produtospedidos/pp_rv6PYTN605gOaHaWLTnqE

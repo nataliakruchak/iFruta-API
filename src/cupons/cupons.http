@@ -1,0 +1,27 @@
+### list cupons
+GET http://localhost:3000/cupons
+
+### get cupons
+GET http://localhost:3000/cupons/prod_08uM36dR9_P88XTy0nP97
+
+### create cupons
+POST http://localhost:3000/cupons
+Content-Type: application/json
+
+{
+    "codigo": "332223",
+    "valorDesconto": 20,
+    "dataValidade": "2025-10-10"
+}
+
+### update cupons
+PATCH http://localhost:3000/cupons/cup_GKp9CItfdqGolse2ka3Xs
+Content-Type: application/json
+
+{
+    "codigo": "8472398",
+    "valorDesconto": 30
+}
+
+### delete cupons
+DELETE http://localhost:3000/cupons/cup_GKp9CItfdqGolse2ka3Xs

@@ -1,0 +1,28 @@
+### list entregador
+GET http://localhost:3000/entregador
+
+### get entregador
+GET http://localhost:3000/entregador/
+
+### create entregador
+POST http://localhost:3000/entregador
+Content-Type: application/json
+
+{
+    "nome": "José Almeida",
+    "telefone": "(61) 9999999",
+    "email": "jose.almeida@gmail.com",
+    "cnh": "322398849",
+    "veiculo": "Moto"
+}
+
+### update entregador
+PATCH http://localhost:3000/entregador/1
+Content-Type: application/json
+
+{
+    "preco_unitario": 5.75
+}
+
+### delete entregador
+DELETE http://localhost:3000/entregador/prod_08uM36dR9_P88XTy0nP97

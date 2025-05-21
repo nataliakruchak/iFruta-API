@@ -1,0 +1,26 @@
+### list cliente
+GET http://localhost:3000/cliente
+
+### get cliente
+GET http://localhost:3000/cliente/1
+
+### create cliente
+POST http://localhost:3000/cliente
+Content-Type: application/json
+
+{
+    "nome": "Matheus",
+    "email": "matheus@gmail.com",
+    "telefone": "(61) 9981818"
+}
+
+### update cliente
+PATCH http://localhost:3000/cliente/cli_4DMIPusCLiGd-XE3Xkj8q
+Content-Type: application/json
+
+{
+    "email": "matheus.s@gmail.com"
+}
+
+### delete cliente
+DELETE http://localhost:3000/cliente/cli_4DMIPusCLiGd-XE3Xkj8q

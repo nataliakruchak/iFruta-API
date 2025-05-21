@@ -1,0 +1,29 @@
+### list loja
+GET http://localhost:3000/loja
+
+### get loja
+GET http://localhost:3000/loja/1
+
+### create loja
+POST http://localhost:3000/loja
+Content-Type: application/json
+
+{
+    "nome": "HortFrut da Nat",
+    "cnpj": "12.323.3234",
+    "email": "nathortfrut@gmail.com",
+    "telefone": "(61)9999999",
+    "endereco": "Rua Arniqueiras, 16"
+
+}
+
+### update loja
+PATCH http://localhost:3000/loja/1
+Content-Type: application/json
+
+{
+    "email": "hortfrutdanat@gmail.com"
+}
+
+### delete loja
+DELETE http://localhost:3000/loja/ped__8EgWfptt3F9dqNYpFN5b
