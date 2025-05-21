@@ -17,8 +17,8 @@ API RESTful desenvolvida com [NestJS](https://nestjs.com/) para o aplicativo **i
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/ifruta-api.git
-cd ifruta-api
+git clone https://github.com/seu-usuario/iFruta-api.git
+cd iFruta-api
 ```
 
 2. Instale as dependências:
