@@ -1,6 +1,6 @@
 # 🥭 iFruta API
 
-API RESTful desenvolvida com [NestJS](https://nestjs.com/) para o projeto no figma **iFruta**, inspirado no iFood, voltada para feiras e hortifrutis.
+API RESTful desenvolvida com [NestJS](https://nestjs.com/) para o projeto no figma **iFruta**, inspirado no iFood, voltado para feiras e hortifrutis.
 
 ## 🚀 Tecnologias Utilizadas
 
